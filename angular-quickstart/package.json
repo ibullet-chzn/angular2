@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
-    "webpackstart": "webpack-dev-server --config webpack.config.js --progress --colors --watch",
+    "preview": "webpack-dev-server --config webpack.develop.config.js --inline --hot --progress --colors --watch",
+    "dll": "webpack --config ddl.config.js",
+    "build": "webpack --config webpack.production.config.js",
     "lite": "lite-server",
     "postinstall": "typings install",
     "tsc": "tsc",
@@ -30,6 +32,7 @@
     "bootstrap": "^3.3.6"
   },
   "devDependencies": {
+    "angular2-router-loader": "^0.2.2",
     "autoprefixer": "^6.4.1",
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
@@ -40,6 +43,8 @@
     "extract-text-webpack-plugin": "^2.0.0-beta.4",
     "html-webpack-plugin": "^2.22.0",
     "json-loader": "^0.5.4",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
     "lite-server": "^2.2.2",
     "postcss-loader": "^0.13.0",
     "raw-loader": "^0.5.1",
