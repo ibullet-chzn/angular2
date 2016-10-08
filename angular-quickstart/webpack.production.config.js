@@ -6,7 +6,7 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 module.exports = {
   devtool: false,//配置生成Source Maps，选择合适的选项
   entry: {
-    bundle: __dirname + "/src/app/main.ts"
+    "bundle": __dirname + "/src/app/main.ts"
   },
   output: {
     path: __dirname + "/public",

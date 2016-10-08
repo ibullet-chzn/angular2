@@ -4,15 +4,14 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
-  devtool: 'eval-source-map',//配置生成Source Maps，选择合适的选项
+  devtool: false,//配置生成Source Maps，选择合适的选项
   entry: {
-    bundle: __dirname + "/src/app/main.ts",
-    shim: __dirname + "/src/app/modules/shim.min.js",
-    zone: __dirname + "/src/app/modules/zone.min.js"
+    "bundle": __dirname + "/src/app/main.ts"
   },
   output: {
     path: __dirname + "/public",
-    filename: "[name]-[hash]-[id].js"
+    publicPath: '/',
+    filename: "[name]-[hash].js"
   },
   resolve: {
     extensions: ['.webpack.js', '.web.js', '.ts', '.tsx', '.js']
@@ -49,7 +48,10 @@ module.exports = {
   //  return [autoprefixer];
   //},
   plugins: [
-    new webpack.optimize.CommonsChunkPlugin(['zone', 'shim']),
+    new webpack.DllReferencePlugin({
+      context: __dirname,
+      manifest: require('./manifest.json')
+    }),
     new webpack.BannerPlugin("Copyright Flying Unicorns inc."),//在这个数组中new一个就可以了
     new HtmlWebpackPlugin({
       title: 'title',

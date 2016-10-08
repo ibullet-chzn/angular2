@@ -8,9 +8,7 @@ module.exports = {
   entry: [
     '@angular/core',
     '@angular/platform-browser',
-    '@angular/platform-browser-dynamic',
-    __dirname + "/src/app/modules/shim.min.js",
-    __dirname + "/src/app/modules/zone.min.js"
+    '@angular/platform-browser-dynamic'
   ],
   output: {
     path: __dirname + "/public",
@@ -22,6 +20,7 @@ module.exports = {
       path: 'manifest.json',
       name: '[name]',
       context: __dirname
-    })
+    }),
+    new webpack.optimize.UglifyJsPlugin()
   ]
 };
