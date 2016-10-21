@@ -1,0 +1,3835 @@
+{
+  "name": "main",
+  "content": {
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/index.js": {
+      "id": 98,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "NgLocalization",
+        "CommonModule",
+        "NgClass",
+        "NgFor",
+        "NgIf",
+        "NgPlural",
+        "NgPluralCase",
+        "NgStyle",
+        "NgSwitch",
+        "NgSwitchCase",
+        "NgSwitchDefault",
+        "NgTemplateOutlet",
+        "LowerCasePipe",
+        "DatePipe",
+        "I18nPluralPipe",
+        "I18nSelectPipe",
+        "JsonPipe",
+        "AsyncPipe",
+        "CurrencyPipe",
+        "DecimalPipe",
+        "PercentPipe",
+        "SlicePipe",
+        "UpperCasePipe",
+        "PlatformLocation",
+        "LocationStrategy",
+        "APP_BASE_HREF",
+        "HashLocationStrategy",
+        "PathLocationStrategy",
+        "Location"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/common_module.js": {
+      "id": 177,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "CommonModule"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/directives/index.js": {
+      "id": 99,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "NgClass",
+        "NgFor",
+        "NgIf",
+        "NgPlural",
+        "NgPluralCase",
+        "NgStyle",
+        "NgSwitch",
+        "NgSwitchCase",
+        "NgSwitchDefault",
+        "NgTemplateOutlet",
+        "COMMON_DIRECTIVES"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/directives/ng_class.js": {
+      "id": 178,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "NgClass"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/directives/ng_for.js": {
+      "id": 179,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "NgForRow",
+        "NgFor"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/directives/ng_if.js": {
+      "id": 180,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "NgIf"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/directives/ng_plural.js": {
+      "id": 181,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "NgPlural",
+        "NgPluralCase"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/directives/ng_style.js": {
+      "id": 182,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "NgStyle"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/directives/ng_switch.js": {
+      "id": 100,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "SwitchView",
+        "NgSwitch",
+        "NgSwitchCase",
+        "NgSwitchDefault"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/directives/ng_template_outlet.js": {
+      "id": 183,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "NgTemplateOutlet"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/facade/collection.js": {
+      "id": 101,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "MapWrapper",
+        "StringMapWrapper",
+        "ListWrapper",
+        "isListLikeIterable",
+        "areIterablesEqual",
+        "iterateListLike"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/facade/errors.js": {
+      "id": 184,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "unimplemented",
+        "BaseError",
+        "WrappedError"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/facade/intl.js": {
+      "id": 102,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "NumberFormatStyle",
+        "NumberFormatter",
+        "DateFormatter"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/facade/lang.js": {
+      "id": 10,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "scheduleMicroTask",
+        "global",
+        "getTypeNameForDebugging",
+        "isPresent",
+        "isBlank",
+        "isBoolean",
+        "isNumber",
+        "isString",
+        "isFunction",
+        "isType",
+        "isStringMap",
+        "isStrictStringMap",
+        "isArray",
+        "isDate",
+        "noop",
+        "stringify",
+        "StringJoiner",
+        "NumberWrapper",
+        "RegExp",
+        "FunctionWrapper",
+        "looseIdentical",
+        "getMapKey",
+        "normalizeBlank",
+        "normalizeBool",
+        "isJsObject",
+        "print",
+        "warn",
+        "Json",
+        "setValueOnPath",
+        "getSymbolIterator",
+        "evalExpression",
+        "isPrimitive",
+        "hasConstructor",
+        "escape",
+        "escapeRegExp"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/localization.js": {
+      "id": 31,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "NgLocalization",
+        "getPluralCategory",
+        "NgLocaleLocalization",
+        "Plural",
+        "getPluralCase"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/location.js": {
+      "id": 185,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "PlatformLocation",
+        "LocationStrategy",
+        "APP_BASE_HREF",
+        "HashLocationStrategy",
+        "PathLocationStrategy",
+        "Location"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/location/hash_location_strategy.js": {
+      "id": 186,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "HashLocationStrategy"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/location/location.js": {
+      "id": 50,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Location"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/location/location_strategy.js": {
+      "id": 32,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "LocationStrategy",
+        "APP_BASE_HREF"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/location/path_location_strategy.js": {
+      "id": 187,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "PathLocationStrategy"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/location/platform_location.js": {
+      "id": 51,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "PlatformLocation"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/pipes/async_pipe.js": {
+      "id": 188,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "AsyncPipe"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/pipes/date_pipe.js": {
+      "id": 189,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "DatePipe"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/pipes/i18n_plural_pipe.js": {
+      "id": 190,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "I18nPluralPipe"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/pipes/i18n_select_pipe.js": {
+      "id": 191,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "I18nSelectPipe"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/pipes/index.js": {
+      "id": 103,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "AsyncPipe",
+        "CurrencyPipe",
+        "DatePipe",
+        "DecimalPipe",
+        "I18nPluralPipe",
+        "I18nSelectPipe",
+        "JsonPipe",
+        "LowerCasePipe",
+        "PercentPipe",
+        "SlicePipe",
+        "UpperCasePipe",
+        "COMMON_PIPES"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/pipes/invalid_pipe_argument_error.js": {
+      "id": 17,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "InvalidPipeArgumentError"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/pipes/json_pipe.js": {
+      "id": 192,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "JsonPipe"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/pipes/lowercase_pipe.js": {
+      "id": 193,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "LowerCasePipe"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/pipes/number_pipe.js": {
+      "id": 194,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "DecimalPipe",
+        "PercentPipe",
+        "CurrencyPipe"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/pipes/slice_pipe.js": {
+      "id": 195,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "SlicePipe"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/pipes/uppercase_pipe.js": {
+      "id": 196,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "UpperCasePipe"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/common/2.1.0/@angular/common/src/private_import_core.js": {
+      "id": 197,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "isPromise"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/index.js": {
+      "id": 33,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "RenderTypes",
+        "CompileDiDependencyMetadata",
+        "CompileDirectiveMetadata",
+        "CompileFactoryMetadata",
+        "CompileIdentifierMetadata",
+        "CompileMetadataWithIdentifier",
+        "CompilePipeMetadata",
+        "CompileProviderMetadata",
+        "CompileQueryMetadata",
+        "CompileTemplateMetadata",
+        "CompileTokenMetadata",
+        "CompileTypeMetadata",
+        "CompilerConfig",
+        "DEFAULT_PACKAGE_URL_PROVIDER",
+        "DirectiveResolver",
+        "NgModuleResolver",
+        "OfflineCompiler",
+        "PipeResolver",
+        "COMPILER_PROVIDERS",
+        "ResourceLoader",
+        "RuntimeCompiler",
+        "SourceModule",
+        "TEMPLATE_TRANSFORMS",
+        "UrlResolver",
+        "createOfflineCompileUrlResolver",
+        "platformCoreDynamic",
+        "InterpolationConfig",
+        "DEFAULT_INTERPOLATION_CONFIG",
+        "ElementSchemaRegistry",
+        "I18NHtmlParser",
+        "MessageBundle",
+        "Xliff",
+        "Xmb",
+        "Xtb",
+        "TextAst",
+        "BoundTextAst",
+        "AttrAst",
+        "BoundElementPropertyAst",
+        "BoundEventAst",
+        "ReferenceAst",
+        "VariableAst",
+        "ElementAst",
+        "EmbeddedTemplateAst",
+        "BoundDirectivePropertyAst",
+        "DirectiveAst",
+        "ProviderAst",
+        "ProviderAstType",
+        "NgContentAst",
+        "PropertyBindingType",
+        "templateVisitAll",
+        "__compiler_private__"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/animation/animation_ast.js": {
+      "id": 104,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "AnimationAst",
+        "AnimationStateAst",
+        "AnimationEntryAst",
+        "AnimationStateDeclarationAst",
+        "AnimationStateTransitionExpression",
+        "AnimationStateTransitionAst",
+        "AnimationStepAst",
+        "AnimationStylesAst",
+        "AnimationKeyframeAst",
+        "AnimationWithStepsAst",
+        "AnimationGroupAst",
+        "AnimationSequenceAst"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/animation/animation_compiler.js": {
+      "id": 52,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "AnimationEntryCompileResult",
+        "AnimationCompiler"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/animation/animation_parser.js": {
+      "id": 105,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "AnimationParseError",
+        "AnimationEntryParseResult",
+        "AnimationParser"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/animation/styles_collection.js": {
+      "id": 198,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "StylesCollectionEntry",
+        "StylesCollection"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/assertions.js": {
+      "id": 106,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "assertArrayOfStrings",
+        "assertInterpolationSymbols"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/chars.js": {
+      "id": 53,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "$EOF",
+        "$TAB",
+        "$LF",
+        "$VTAB",
+        "$FF",
+        "$CR",
+        "$SPACE",
+        "$BANG",
+        "$DQ",
+        "$HASH",
+        "$$",
+        "$PERCENT",
+        "$AMPERSAND",
+        "$SQ",
+        "$LPAREN",
+        "$RPAREN",
+        "$STAR",
+        "$PLUS",
+        "$COMMA",
+        "$MINUS",
+        "$PERIOD",
+        "$SLASH",
+        "$COLON",
+        "$SEMICOLON",
+        "$LT",
+        "$EQ",
+        "$GT",
+        "$QUESTION",
+        "$0",
+        "$9",
+        "$A",
+        "$E",
+        "$F",
+        "$X",
+        "$Z",
+        "$LBRACKET",
+        "$BACKSLASH",
+        "$RBRACKET",
+        "$CARET",
+        "$_",
+        "$a",
+        "$e",
+        "$f",
+        "$n",
+        "$r",
+        "$t",
+        "$u",
+        "$v",
+        "$x",
+        "$z",
+        "$LBRACE",
+        "$BAR",
+        "$RBRACE",
+        "$NBSP",
+        "$PIPE",
+        "$TILDA",
+        "$AT",
+        "$BT",
+        "isWhitespace",
+        "isDigit",
+        "isAsciiLetter",
+        "isAsciiHexDigit"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/compile_metadata.js": {
+      "id": 9,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "CompileMetadataWithIdentifier",
+        "CompileAnimationEntryMetadata",
+        "CompileAnimationStateMetadata",
+        "CompileAnimationStateDeclarationMetadata",
+        "CompileAnimationStateTransitionMetadata",
+        "CompileAnimationMetadata",
+        "CompileAnimationKeyframesSequenceMetadata",
+        "CompileAnimationStyleMetadata",
+        "CompileAnimationAnimateMetadata",
+        "CompileAnimationWithStepsMetadata",
+        "CompileAnimationSequenceMetadata",
+        "CompileAnimationGroupMetadata",
+        "CompileIdentifierMetadata",
+        "CompileDiDependencyMetadata",
+        "CompileProviderMetadata",
+        "CompileFactoryMetadata",
+        "CompileTokenMetadata",
+        "CompileTypeMetadata",
+        "CompileQueryMetadata",
+        "CompileStylesheetMetadata",
+        "CompileTemplateMetadata",
+        "CompileDirectiveMetadata",
+        "createHostComponentMeta",
+        "CompilePipeMetadata",
+        "CompileNgModuleMetadata",
+        "TransitiveCompileNgModuleMetadata",
+        "removeIdentifierDuplicates",
+        "isStaticSymbol",
+        "ProviderMeta"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/compiler.js": {
+      "id": 199,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "TEMPLATE_TRANSFORMS",
+        "CompilerConfig",
+        "RenderTypes",
+        "RuntimeCompiler",
+        "DirectiveResolver",
+        "PipeResolver",
+        "NgModuleResolver",
+        "COMPILER_PROVIDERS",
+        "RuntimeCompilerFactory",
+        "platformCoreDynamic",
+        "TextAst",
+        "BoundTextAst",
+        "AttrAst",
+        "BoundElementPropertyAst",
+        "BoundEventAst",
+        "ReferenceAst",
+        "VariableAst",
+        "ElementAst",
+        "EmbeddedTemplateAst",
+        "BoundDirectivePropertyAst",
+        "DirectiveAst",
+        "ProviderAst",
+        "ProviderAstType",
+        "NgContentAst",
+        "PropertyBindingType",
+        "templateVisitAll",
+        "CompileMetadataWithIdentifier",
+        "CompileAnimationEntryMetadata",
+        "CompileAnimationStateMetadata",
+        "CompileAnimationStateDeclarationMetadata",
+        "CompileAnimationStateTransitionMetadata",
+        "CompileAnimationMetadata",
+        "CompileAnimationKeyframesSequenceMetadata",
+        "CompileAnimationStyleMetadata",
+        "CompileAnimationAnimateMetadata",
+        "CompileAnimationWithStepsMetadata",
+        "CompileAnimationSequenceMetadata",
+        "CompileAnimationGroupMetadata",
+        "CompileIdentifierMetadata",
+        "CompileDiDependencyMetadata",
+        "CompileProviderMetadata",
+        "CompileFactoryMetadata",
+        "CompileTokenMetadata",
+        "CompileTypeMetadata",
+        "CompileQueryMetadata",
+        "CompileStylesheetMetadata",
+        "CompileTemplateMetadata",
+        "CompileDirectiveMetadata",
+        "createHostComponentMeta",
+        "CompilePipeMetadata",
+        "CompileNgModuleMetadata",
+        "TransitiveCompileNgModuleMetadata",
+        "removeIdentifierDuplicates",
+        "isStaticSymbol",
+        "ProviderMeta",
+        "SourceModule",
+        "NgModulesSummary",
+        "analyzeModules",
+        "OfflineCompiler",
+        "createUrlResolverWithoutPackagePrefix",
+        "createOfflineCompileUrlResolver",
+        "DEFAULT_PACKAGE_URL_PROVIDER",
+        "UrlResolver",
+        "getUrlScheme",
+        "ResourceLoader"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/config.js": {
+      "id": 26,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "CompilerConfig",
+        "RenderTypes",
+        "DefaultRenderTypes"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/directive_normalizer.js": {
+      "id": 54,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "DirectiveNormalizer"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/directive_resolver.js": {
+      "id": 55,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "DirectiveResolver"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/expression_parser/ast.js": {
+      "id": 56,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ParserError",
+        "ParseSpan",
+        "AST",
+        "Quote",
+        "EmptyExpr",
+        "ImplicitReceiver",
+        "Chain",
+        "Conditional",
+        "PropertyRead",
+        "PropertyWrite",
+        "SafePropertyRead",
+        "KeyedRead",
+        "KeyedWrite",
+        "BindingPipe",
+        "LiteralPrimitive",
+        "LiteralArray",
+        "LiteralMap",
+        "Interpolation",
+        "Binary",
+        "PrefixNot",
+        "MethodCall",
+        "SafeMethodCall",
+        "FunctionCall",
+        "ASTWithSource",
+        "TemplateBinding",
+        "RecursiveAstVisitor",
+        "AstTransformer"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/expression_parser/lexer.js": {
+      "id": 34,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "TokenType",
+        "Lexer",
+        "Token",
+        "EOF",
+        "isIdentifier",
+        "isQuote"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/expression_parser/parser.js": {
+      "id": 35,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "SplitInterpolation",
+        "TemplateBindingParseResult",
+        "Parser",
+        "_ParseAST"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/facade/collection.js": {
+      "id": 7,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "MapWrapper",
+        "StringMapWrapper",
+        "ListWrapper",
+        "isListLikeIterable",
+        "areIterablesEqual",
+        "iterateListLike"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/facade/lang.js": {
+      "id": 1,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "scheduleMicroTask",
+        "global",
+        "getTypeNameForDebugging",
+        "isPresent",
+        "isBlank",
+        "isBoolean",
+        "isNumber",
+        "isString",
+        "isFunction",
+        "isType",
+        "isStringMap",
+        "isStrictStringMap",
+        "isArray",
+        "isDate",
+        "noop",
+        "stringify",
+        "StringJoiner",
+        "NumberWrapper",
+        "RegExp",
+        "FunctionWrapper",
+        "looseIdentical",
+        "getMapKey",
+        "normalizeBlank",
+        "normalizeBool",
+        "isJsObject",
+        "print",
+        "warn",
+        "Json",
+        "setValueOnPath",
+        "getSymbolIterator",
+        "evalExpression",
+        "isPrimitive",
+        "hasConstructor",
+        "escape",
+        "escapeRegExp"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/facade/math.js": {
+      "id": 200,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Math",
+        "NaN"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/i18n/digest.js": {
+      "id": 57,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "digestMessage",
+        "serializeNodes",
+        "sha1"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/i18n/extractor_merger.js": {
+      "id": 107,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "extractMessages",
+        "mergeTranslations",
+        "ExtractionResult"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/i18n/i18n_ast.js": {
+      "id": 108,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Message",
+        "Text",
+        "Container",
+        "Icu",
+        "TagPlaceholder",
+        "Placeholder",
+        "IcuPlaceholder"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/i18n/i18n_html_parser.js": {
+      "id": 109,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "I18NHtmlParser"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/i18n/i18n_parser.js": {
+      "id": 201,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "createI18nMessageFactory"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/i18n/index.js": {
+      "id": 110,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "I18NHtmlParser",
+        "MessageBundle",
+        "Xliff",
+        "Xmb",
+        "Xtb"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/i18n/message_bundle.js": {
+      "id": 111,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "MessageBundle"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/i18n/parse_util.js": {
+      "id": 58,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "I18nError"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/i18n/serializers/placeholder.js": {
+      "id": 202,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "PlaceholderRegistry"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/i18n/serializers/serializer.js": {
+      "id": 112,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "extractPlaceholders",
+        "extractPlaceholderToIds"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/i18n/serializers/xliff.js": {
+      "id": 113,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Xliff"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/i18n/serializers/xmb.js": {
+      "id": 114,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Xmb"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/i18n/serializers/xml_helper.js": {
+      "id": 115,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "serialize",
+        "Declaration",
+        "Doctype",
+        "Tag",
+        "Text",
+        "CR"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/i18n/serializers/xtb.js": {
+      "id": 116,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Xtb"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/i18n/translation_bundle.js": {
+      "id": 203,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "TranslationBundle"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/identifiers.js": {
+      "id": 5,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Identifiers",
+        "resolveIdentifier",
+        "identifierToken",
+        "resolveIdentifierToken",
+        "resolveEnumIdentifier"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/index.js": {
+      "id": 204,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "RenderTypes",
+        "CompileDiDependencyMetadata",
+        "CompileDirectiveMetadata",
+        "CompileFactoryMetadata",
+        "CompileIdentifierMetadata",
+        "CompileMetadataWithIdentifier",
+        "CompilePipeMetadata",
+        "CompileProviderMetadata",
+        "CompileQueryMetadata",
+        "CompileTemplateMetadata",
+        "CompileTokenMetadata",
+        "CompileTypeMetadata",
+        "CompilerConfig",
+        "DEFAULT_PACKAGE_URL_PROVIDER",
+        "DirectiveResolver",
+        "NgModuleResolver",
+        "OfflineCompiler",
+        "PipeResolver",
+        "COMPILER_PROVIDERS",
+        "ResourceLoader",
+        "RuntimeCompiler",
+        "SourceModule",
+        "TEMPLATE_TRANSFORMS",
+        "UrlResolver",
+        "createOfflineCompileUrlResolver",
+        "platformCoreDynamic",
+        "InterpolationConfig",
+        "DEFAULT_INTERPOLATION_CONFIG",
+        "ElementSchemaRegistry",
+        "I18NHtmlParser",
+        "MessageBundle",
+        "Xliff",
+        "Xmb",
+        "Xtb",
+        "TextAst",
+        "BoundTextAst",
+        "AttrAst",
+        "BoundElementPropertyAst",
+        "BoundEventAst",
+        "ReferenceAst",
+        "VariableAst",
+        "ElementAst",
+        "EmbeddedTemplateAst",
+        "BoundDirectivePropertyAst",
+        "DirectiveAst",
+        "ProviderAst",
+        "ProviderAstType",
+        "NgContentAst",
+        "PropertyBindingType",
+        "templateVisitAll",
+        "__compiler_private__"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/lifecycle_reflector.js": {
+      "id": 205,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "hasLifecycleHook"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/metadata_resolver.js": {
+      "id": 59,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "CompileMetadataResolver"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/ml_parser/ast.js": {
+      "id": 18,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Text",
+        "Expansion",
+        "ExpansionCase",
+        "Attribute",
+        "Element",
+        "Comment",
+        "visitAll"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/ml_parser/html_parser.js": {
+      "id": 36,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ParseTreeResult",
+        "TreeError",
+        "HtmlParser"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/ml_parser/html_tags.js": {
+      "id": 60,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "HtmlTagDefinition",
+        "getHtmlTagDefinition"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/ml_parser/icu_ast_expander.js": {
+      "id": 206,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "expandNodes",
+        "ExpansionResult",
+        "ExpansionError"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/ml_parser/interpolation_config.js": {
+      "id": 15,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "InterpolationConfig",
+        "DEFAULT_INTERPOLATION_CONFIG"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/ml_parser/lexer.js": {
+      "id": 207,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "TokenType",
+        "Token",
+        "TokenError",
+        "TokenizeResult",
+        "tokenize"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/ml_parser/parser.js": {
+      "id": 20,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "TreeError",
+        "ParseTreeResult",
+        "Parser"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/ml_parser/tags.js": {
+      "id": 21,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "TagContentType",
+        "splitNsName",
+        "getNsPrefix",
+        "mergeNsAndName",
+        "NAMED_ENTITIES"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/ml_parser/xml_parser.js": {
+      "id": 117,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ParseTreeResult",
+        "TreeError",
+        "XmlParser"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/ml_parser/xml_tags.js": {
+      "id": 208,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "XmlTagDefinition",
+        "getXmlTagDefinition"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/ng_module_compiler.js": {
+      "id": 61,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ComponentFactoryDependency",
+        "NgModuleCompileResult",
+        "NgModuleCompiler"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/ng_module_resolver.js": {
+      "id": 62,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "NgModuleResolver"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/offline_compiler.js": {
+      "id": 209,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "SourceModule",
+        "NgModulesSummary",
+        "analyzeModules",
+        "OfflineCompiler"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/output/abstract_emitter.js": {
+      "id": 63,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "CATCH_ERROR_VAR",
+        "CATCH_STACK_VAR",
+        "OutputEmitter",
+        "EmitterVisitorContext",
+        "AbstractEmitterVisitor",
+        "escapeIdentifier"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/output/abstract_js_emitter.js": {
+      "id": 210,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "AbstractJsEmitterVisitor"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/output/output_ast.js": {
+      "id": 3,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "TypeModifier",
+        "Type",
+        "BuiltinTypeName",
+        "BuiltinType",
+        "ExternalType",
+        "ArrayType",
+        "MapType",
+        "DYNAMIC_TYPE",
+        "BOOL_TYPE",
+        "INT_TYPE",
+        "NUMBER_TYPE",
+        "STRING_TYPE",
+        "FUNCTION_TYPE",
+        "BinaryOperator",
+        "Expression",
+        "BuiltinVar",
+        "ReadVarExpr",
+        "WriteVarExpr",
+        "WriteKeyExpr",
+        "WritePropExpr",
+        "BuiltinMethod",
+        "InvokeMethodExpr",
+        "InvokeFunctionExpr",
+        "InstantiateExpr",
+        "LiteralExpr",
+        "ExternalExpr",
+        "ConditionalExpr",
+        "NotExpr",
+        "CastExpr",
+        "FnParam",
+        "FunctionExpr",
+        "BinaryOperatorExpr",
+        "ReadPropExpr",
+        "ReadKeyExpr",
+        "LiteralArrayExpr",
+        "LiteralMapExpr",
+        "THIS_EXPR",
+        "SUPER_EXPR",
+        "CATCH_ERROR_VAR",
+        "CATCH_STACK_VAR",
+        "NULL_EXPR",
+        "StmtModifier",
+        "Statement",
+        "DeclareVarStmt",
+        "DeclareFunctionStmt",
+        "ExpressionStatement",
+        "ReturnStatement",
+        "AbstractClassPart",
+        "ClassField",
+        "ClassMethod",
+        "ClassGetter",
+        "ClassStmt",
+        "IfStmt",
+        "CommentStmt",
+        "TryCatchStmt",
+        "ThrowStmt",
+        "ExpressionTransformer",
+        "RecursiveExpressionVisitor",
+        "replaceVarInExpression",
+        "findReadVarNames",
+        "variable",
+        "importExpr",
+        "importType",
+        "literalArr",
+        "literalMap",
+        "not",
+        "fn",
+        "literal"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/output/output_interpreter.js": {
+      "id": 211,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "interpretStatements"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/output/output_jit.js": {
+      "id": 212,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "jitStatements"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/output/path_util.js": {
+      "id": 213,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ImportGenerator",
+        "AssetUrl"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/output/ts_emitter.js": {
+      "id": 118,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "debugOutputAstAsTypeScript",
+        "TypeScriptEmitter"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/output/value_util.js": {
+      "id": 119,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "convertValueToOutputAst"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/parse_util.js": {
+      "id": 16,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ParseLocation",
+        "ParseSourceFile",
+        "ParseSourceSpan",
+        "ParseErrorLevel",
+        "ParseError"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/pipe_resolver.js": {
+      "id": 64,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "PipeResolver"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/private_export.js": {
+      "id": 214,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "__compiler_private__"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/private_import_core.js": {
+      "id": 6,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "isDefaultChangeDetectionStrategy",
+        "ChangeDetectorStatus",
+        "LifecycleHooks",
+        "LIFECYCLE_HOOKS_VALUES",
+        "ReflectorReader",
+        "AppElement",
+        "CodegenComponentFactoryResolver",
+        "AppView",
+        "DebugAppView",
+        "NgModuleInjector",
+        "registerModuleFactory",
+        "ViewType",
+        "MAX_INTERPOLATION_VALUES",
+        "checkBinding",
+        "flattenNestedViewRenderNodes",
+        "interpolate",
+        "ViewUtils",
+        "DebugContext",
+        "StaticNodeDebugInfo",
+        "devModeEqual",
+        "UNINITIALIZED",
+        "ValueUnwrapper",
+        "TemplateRef_",
+        "RenderDebugInfo",
+        "EMPTY_ARRAY",
+        "EMPTY_MAP",
+        "pureProxy1",
+        "pureProxy2",
+        "pureProxy3",
+        "pureProxy4",
+        "pureProxy5",
+        "pureProxy6",
+        "pureProxy7",
+        "pureProxy8",
+        "pureProxy9",
+        "pureProxy10",
+        "castByValue",
+        "Console",
+        "reflector",
+        "Reflector",
+        "ReflectionCapabilities",
+        "NoOpAnimationPlayer",
+        "AnimationPlayer",
+        "AnimationSequencePlayer",
+        "AnimationGroupPlayer",
+        "AnimationKeyframe",
+        "AnimationStyles",
+        "ANY_STATE",
+        "DEFAULT_STATE",
+        "EMPTY_STATE",
+        "FILL_STYLE_FLAG",
+        "prepareFinalAnimationStyles",
+        "balanceAnimationKeyframes",
+        "clearStyles",
+        "collectAndResolveStyles",
+        "renderStyles",
+        "ViewMetadata",
+        "ComponentStillLoadingError"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/provider_analyzer.js": {
+      "id": 120,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ProviderError",
+        "ProviderViewContext",
+        "ProviderElementContext",
+        "NgModuleProviderAnalyzer"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/resource_loader.js": {
+      "id": 65,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ResourceLoader"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/runtime_compiler.js": {
+      "id": 121,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "RuntimeCompiler"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/schema/dom_element_schema_registry.js": {
+      "id": 122,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "DomElementSchemaRegistry"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/schema/dom_security_schema.js": {
+      "id": 215,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "SECURITY_SCHEMA"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/schema/element_schema_registry.js": {
+      "id": 27,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ElementSchemaRegistry"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/selector.js": {
+      "id": 66,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "CssSelector",
+        "SelectorMatcher",
+        "SelectorListContext",
+        "SelectorContext"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/shadow_css.js": {
+      "id": 216,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ShadowCss",
+        "CssRule",
+        "processRules"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/style_compiler.js": {
+      "id": 67,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "StylesCompileDependency",
+        "StylesCompileResult",
+        "CompiledStylesheet",
+        "StyleCompiler"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/style_url_resolver.js": {
+      "id": 123,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "StyleWithImports",
+        "isStyleUrlResolvable",
+        "extractStyleUrls"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/template_parser/template_ast.js": {
+      "id": 19,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "TextAst",
+        "BoundTextAst",
+        "AttrAst",
+        "BoundElementPropertyAst",
+        "BoundEventAst",
+        "ReferenceAst",
+        "VariableAst",
+        "ElementAst",
+        "EmbeddedTemplateAst",
+        "BoundDirectivePropertyAst",
+        "DirectiveAst",
+        "ProviderAst",
+        "ProviderAstType",
+        "NgContentAst",
+        "PropertyBindingType",
+        "templateVisitAll"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/template_parser/template_parser.js": {
+      "id": 37,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "TEMPLATE_TRANSFORMS",
+        "TemplateParseError",
+        "TemplateParseResult",
+        "TemplateParser",
+        "splitClasses",
+        "PipeCollector"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/template_parser/template_preparser.js": {
+      "id": 124,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "preparseElement",
+        "PreparsedElementType",
+        "PreparsedElement"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/url_resolver.js": {
+      "id": 28,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "createUrlResolverWithoutPackagePrefix",
+        "createOfflineCompileUrlResolver",
+        "DEFAULT_PACKAGE_URL_PROVIDER",
+        "UrlResolver",
+        "getUrlScheme"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/util.js": {
+      "id": 11,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "MODULE_SUFFIX",
+        "camelCaseToDashCase",
+        "splitAtColon",
+        "splitAtPeriod",
+        "sanitizeIdentifier",
+        "visitValue",
+        "ValueTransformer",
+        "assetUrl",
+        "createDiTokenExpression",
+        "SyncAsyncResult"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/view_compiler/compile_binding.js": {
+      "id": 125,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "CompileBinding"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/view_compiler/compile_element.js": {
+      "id": 126,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "CompileNode",
+        "CompileElement"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/view_compiler/compile_method.js": {
+      "id": 68,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "CompileMethod"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/view_compiler/compile_pipe.js": {
+      "id": 217,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "CompilePipe"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/view_compiler/compile_query.js": {
+      "id": 127,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "CompileQuery",
+        "createQueryList",
+        "addQueryToTokenMap"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/view_compiler/compile_view.js": {
+      "id": 128,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "CompileView"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/view_compiler/constants.js": {
+      "id": 22,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ViewTypeEnum",
+        "ViewEncapsulationEnum",
+        "ChangeDetectionStrategyEnum",
+        "ChangeDetectorStatusEnum",
+        "ViewConstructorVars",
+        "ViewProperties",
+        "EventHandlerVars",
+        "InjectMethodVars",
+        "DetectChangesVars"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/view_compiler/event_binder.js": {
+      "id": 218,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "CompileEventListener",
+        "collectEventListeners",
+        "bindDirectiveOutputs",
+        "bindRenderOutputs"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/view_compiler/expression_converter.js": {
+      "id": 129,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ExpressionWithWrappedValueInfo",
+        "convertCdExpressionToIr",
+        "convertCdStatementToIr",
+        "temporaryDeclaration"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/view_compiler/lifecycle_binder.js": {
+      "id": 219,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "bindDirectiveDetectChangesLifecycleCallbacks",
+        "bindDirectiveAfterContentLifecycleCallbacks",
+        "bindDirectiveAfterViewLifecycleCallbacks",
+        "bindInjectableDestroyLifecycleCallbacks",
+        "bindPipeDestroyLifecycleCallbacks"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/view_compiler/property_binder.js": {
+      "id": 220,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "bindRenderText",
+        "bindRenderInputs",
+        "bindDirectiveHostProps",
+        "bindDirectiveInputs"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/view_compiler/util.js": {
+      "id": 29,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "getPropertyInView",
+        "injectFromViewParentInjector",
+        "getViewFactoryName",
+        "createFlatArray",
+        "createPureProxy"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/view_compiler/view_binder.js": {
+      "id": 221,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "bindView"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/view_compiler/view_builder.js": {
+      "id": 130,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ViewFactoryDependency",
+        "ComponentFactoryDependency",
+        "buildView",
+        "finishView"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/compiler/2.1.0/@angular/compiler/src/view_compiler/view_compiler.js": {
+      "id": 38,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ComponentFactoryDependency",
+        "ViewFactoryDependency",
+        "ViewCompileResult",
+        "ViewCompiler"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/index.js": {
+      "id": 0,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "assertPlatform",
+        "destroyPlatform",
+        "getPlatform",
+        "createPlatform",
+        "ApplicationRef",
+        "enableProdMode",
+        "isDevMode",
+        "createPlatformFactory",
+        "PlatformRef",
+        "APP_ID",
+        "PACKAGE_ROOT_URL",
+        "APP_BOOTSTRAP_LISTENER",
+        "PLATFORM_INITIALIZER",
+        "ApplicationInitStatus",
+        "APP_INITIALIZER",
+        "DebugElement",
+        "DebugNode",
+        "asNativeElements",
+        "getDebugNode",
+        "Testability",
+        "TestabilityRegistry",
+        "setTestabilityGetter",
+        "TRANSLATIONS",
+        "TRANSLATIONS_FORMAT",
+        "LOCALE_ID",
+        "ApplicationModule",
+        "wtfCreateScope",
+        "wtfLeave",
+        "wtfStartTimeRange",
+        "wtfEndTimeRange",
+        "Type",
+        "EventEmitter",
+        "ErrorHandler",
+        "AnimationTransitionEvent",
+        "AnimationPlayer",
+        "Sanitizer",
+        "SecurityContext",
+        "Attribute",
+        "ContentChild",
+        "ContentChildren",
+        "Query",
+        "ViewChild",
+        "ViewChildren",
+        "ANALYZE_FOR_ENTRY_COMPONENTS",
+        "Component",
+        "Directive",
+        "HostBinding",
+        "HostListener",
+        "Input",
+        "Output",
+        "Pipe",
+        "OnDestroy",
+        "AfterContentInit",
+        "AfterViewChecked",
+        "AfterViewInit",
+        "DoCheck",
+        "OnChanges",
+        "AfterContentChecked",
+        "OnInit",
+        "CUSTOM_ELEMENTS_SCHEMA",
+        "NO_ERRORS_SCHEMA",
+        "NgModule",
+        "ViewEncapsulation",
+        "Class",
+        "forwardRef",
+        "resolveForwardRef",
+        "Injector",
+        "ReflectiveInjector",
+        "ResolvedReflectiveFactory",
+        "ReflectiveKey",
+        "OpaqueToken",
+        "NgZone",
+        "RenderComponentType",
+        "Renderer",
+        "RootRenderer",
+        "COMPILER_OPTIONS",
+        "CompilerFactory",
+        "ModuleWithComponentFactories",
+        "Compiler",
+        "ComponentFactory",
+        "ComponentRef",
+        "ComponentFactoryResolver",
+        "ElementRef",
+        "NgModuleFactory",
+        "NgModuleRef",
+        "NgModuleFactoryLoader",
+        "getModuleFactory",
+        "QueryList",
+        "SystemJsNgModuleLoader",
+        "SystemJsNgModuleLoaderConfig",
+        "TemplateRef",
+        "ViewContainerRef",
+        "EmbeddedViewRef",
+        "ViewRef",
+        "ChangeDetectionStrategy",
+        "ChangeDetectorRef",
+        "CollectionChangeRecord",
+        "DefaultIterableDiffer",
+        "IterableDiffers",
+        "KeyValueChangeRecord",
+        "KeyValueDiffers",
+        "SimpleChange",
+        "WrappedValue",
+        "platformCore",
+        "__core_private__",
+        "AUTO_STYLE",
+        "AnimationEntryMetadata",
+        "AnimationStateMetadata",
+        "AnimationStateDeclarationMetadata",
+        "AnimationStateTransitionMetadata",
+        "AnimationMetadata",
+        "AnimationKeyframesSequenceMetadata",
+        "AnimationStyleMetadata",
+        "AnimationAnimateMetadata",
+        "AnimationWithStepsMetadata",
+        "AnimationSequenceMetadata",
+        "AnimationGroupMetadata",
+        "animate",
+        "group",
+        "sequence",
+        "style",
+        "state",
+        "keyframes",
+        "transition",
+        "trigger",
+        "Inject",
+        "Optional",
+        "Injectable",
+        "Self",
+        "SkipSelf",
+        "Host"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/animation/animation_constants.js": {
+      "id": 131,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "FILL_STYLE_FLAG",
+        "ANY_STATE",
+        "DEFAULT_STATE",
+        "EMPTY_STATE"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/animation/animation_group_player.js": {
+      "id": 132,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "AnimationGroupPlayer"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/animation/animation_keyframe.js": {
+      "id": 222,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "AnimationKeyframe"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/animation/animation_player.js": {
+      "id": 69,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "AnimationPlayer",
+        "NoOpAnimationPlayer"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/animation/animation_queue.js": {
+      "id": 133,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "queueAnimation",
+        "triggerQueuedAnimations"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/animation/animation_sequence_player.js": {
+      "id": 223,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "AnimationSequencePlayer"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/animation/animation_style_util.js": {
+      "id": 224,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "prepareFinalAnimationStyles",
+        "balanceAnimationKeyframes",
+        "clearStyles",
+        "collectAndResolveStyles",
+        "renderStyles",
+        "flattenStyles"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/animation/animation_styles.js": {
+      "id": 225,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "AnimationStyles"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/animation/animation_transition_event.js": {
+      "id": 134,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "AnimationTransitionEvent"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/animation/metadata.js": {
+      "id": 135,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "AUTO_STYLE",
+        "AnimationEntryMetadata",
+        "AnimationStateMetadata",
+        "AnimationStateDeclarationMetadata",
+        "AnimationStateTransitionMetadata",
+        "AnimationMetadata",
+        "AnimationKeyframesSequenceMetadata",
+        "AnimationStyleMetadata",
+        "AnimationAnimateMetadata",
+        "AnimationWithStepsMetadata",
+        "AnimationSequenceMetadata",
+        "AnimationGroupMetadata",
+        "animate",
+        "group",
+        "sequence",
+        "style",
+        "state",
+        "keyframes",
+        "transition",
+        "trigger"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/animation/view_animation_map.js": {
+      "id": 226,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ViewAnimationMap"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/application_init.js": {
+      "id": 70,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "APP_INITIALIZER",
+        "ApplicationInitStatus"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/application_module.js": {
+      "id": 227,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "_iterableDiffersFactory",
+        "_keyValueDiffersFactory",
+        "ApplicationModule"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/application_ref.js": {
+      "id": 71,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "enableProdMode",
+        "isDevMode",
+        "createPlatform",
+        "createPlatformFactory",
+        "assertPlatform",
+        "destroyPlatform",
+        "getPlatform",
+        "PlatformRef",
+        "PlatformRef_",
+        "ApplicationRef",
+        "ApplicationRef_"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/application_tokens.js": {
+      "id": 39,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "APP_ID",
+        "_appIdRandomProviderFactory",
+        "APP_ID_RANDOM_PROVIDER",
+        "PLATFORM_INITIALIZER",
+        "APP_BOOTSTRAP_LISTENER",
+        "PACKAGE_ROOT_URL"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/change_detection.js": {
+      "id": 228,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ChangeDetectionStrategy",
+        "ChangeDetectorRef",
+        "CollectionChangeRecord",
+        "DefaultIterableDiffer",
+        "IterableDiffers",
+        "KeyValueChangeRecord",
+        "KeyValueDiffers",
+        "SimpleChange",
+        "WrappedValue"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/change_detection/change_detection.js": {
+      "id": 40,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "SimpleChange",
+        "UNINITIALIZED",
+        "ValueUnwrapper",
+        "WrappedValue",
+        "devModeEqual",
+        "looseIdentical",
+        "ChangeDetectorRef",
+        "ChangeDetectionStrategy",
+        "ChangeDetectorStatus",
+        "isDefaultChangeDetectionStrategy",
+        "CollectionChangeRecord",
+        "DefaultIterableDifferFactory",
+        "DefaultIterableDiffer",
+        "KeyValueChangeRecord",
+        "DefaultKeyValueDifferFactory",
+        "IterableDiffers",
+        "KeyValueDiffers",
+        "keyValDiff",
+        "iterableDiff",
+        "defaultIterableDiffers",
+        "defaultKeyValueDiffers"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/change_detection/change_detection_util.js": {
+      "id": 41,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "looseIdentical",
+        "UNINITIALIZED",
+        "devModeEqual",
+        "WrappedValue",
+        "ValueUnwrapper",
+        "SimpleChange"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/change_detection/change_detector_ref.js": {
+      "id": 229,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ChangeDetectorRef"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/change_detection/constants.js": {
+      "id": 42,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ChangeDetectionStrategy",
+        "ChangeDetectorStatus",
+        "isDefaultChangeDetectionStrategy"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/change_detection/differs/default_iterable_differ.js": {
+      "id": 72,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "DefaultIterableDifferFactory",
+        "DefaultIterableDiffer",
+        "CollectionChangeRecord"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/change_detection/differs/default_keyvalue_differ.js": {
+      "id": 136,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "DefaultKeyValueDifferFactory",
+        "DefaultKeyValueDiffer",
+        "KeyValueChangeRecord"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/change_detection/differs/iterable_differs.js": {
+      "id": 137,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "IterableDiffers"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/change_detection/differs/keyvalue_differs.js": {
+      "id": 138,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "KeyValueDiffers"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/console.js": {
+      "id": 73,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Console"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/core.js": {
+      "id": 230,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "assertPlatform",
+        "destroyPlatform",
+        "getPlatform",
+        "createPlatform",
+        "ApplicationRef",
+        "enableProdMode",
+        "isDevMode",
+        "createPlatformFactory",
+        "PlatformRef",
+        "APP_ID",
+        "PACKAGE_ROOT_URL",
+        "APP_BOOTSTRAP_LISTENER",
+        "PLATFORM_INITIALIZER",
+        "ApplicationInitStatus",
+        "APP_INITIALIZER",
+        "DebugElement",
+        "DebugNode",
+        "asNativeElements",
+        "getDebugNode",
+        "Testability",
+        "TestabilityRegistry",
+        "setTestabilityGetter",
+        "TRANSLATIONS",
+        "TRANSLATIONS_FORMAT",
+        "LOCALE_ID",
+        "ApplicationModule",
+        "wtfCreateScope",
+        "wtfLeave",
+        "wtfStartTimeRange",
+        "wtfEndTimeRange",
+        "Type",
+        "EventEmitter",
+        "ErrorHandler",
+        "AnimationTransitionEvent",
+        "AnimationPlayer",
+        "Sanitizer",
+        "SecurityContext",
+        "Attribute",
+        "ContentChild",
+        "ContentChildren",
+        "Query",
+        "ViewChild",
+        "ViewChildren",
+        "ANALYZE_FOR_ENTRY_COMPONENTS",
+        "Component",
+        "Directive",
+        "HostBinding",
+        "HostListener",
+        "Input",
+        "Output",
+        "Pipe",
+        "OnDestroy",
+        "AfterContentInit",
+        "AfterViewChecked",
+        "AfterViewInit",
+        "DoCheck",
+        "OnChanges",
+        "AfterContentChecked",
+        "OnInit",
+        "CUSTOM_ELEMENTS_SCHEMA",
+        "NO_ERRORS_SCHEMA",
+        "NgModule",
+        "ViewEncapsulation",
+        "Class",
+        "forwardRef",
+        "resolveForwardRef",
+        "Injector",
+        "ReflectiveInjector",
+        "ResolvedReflectiveFactory",
+        "ReflectiveKey",
+        "OpaqueToken",
+        "NgZone",
+        "RenderComponentType",
+        "Renderer",
+        "RootRenderer",
+        "COMPILER_OPTIONS",
+        "CompilerFactory",
+        "ModuleWithComponentFactories",
+        "Compiler",
+        "ComponentFactory",
+        "ComponentRef",
+        "ComponentFactoryResolver",
+        "ElementRef",
+        "NgModuleFactory",
+        "NgModuleRef",
+        "NgModuleFactoryLoader",
+        "getModuleFactory",
+        "QueryList",
+        "SystemJsNgModuleLoader",
+        "SystemJsNgModuleLoaderConfig",
+        "TemplateRef",
+        "ViewContainerRef",
+        "EmbeddedViewRef",
+        "ViewRef",
+        "ChangeDetectionStrategy",
+        "ChangeDetectorRef",
+        "CollectionChangeRecord",
+        "DefaultIterableDiffer",
+        "IterableDiffers",
+        "KeyValueChangeRecord",
+        "KeyValueDiffers",
+        "SimpleChange",
+        "WrappedValue",
+        "platformCore",
+        "__core_private__",
+        "AUTO_STYLE",
+        "AnimationEntryMetadata",
+        "AnimationStateMetadata",
+        "AnimationStateDeclarationMetadata",
+        "AnimationStateTransitionMetadata",
+        "AnimationMetadata",
+        "AnimationKeyframesSequenceMetadata",
+        "AnimationStyleMetadata",
+        "AnimationAnimateMetadata",
+        "AnimationWithStepsMetadata",
+        "AnimationSequenceMetadata",
+        "AnimationGroupMetadata",
+        "animate",
+        "group",
+        "sequence",
+        "style",
+        "state",
+        "keyframes",
+        "transition",
+        "trigger",
+        "Inject",
+        "Optional",
+        "Injectable",
+        "Self",
+        "SkipSelf",
+        "Host"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/core_private_export.js": {
+      "id": 231,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "__core_private__"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/debug/debug_node.js": {
+      "id": 139,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "EventListener",
+        "DebugNode",
+        "DebugElement",
+        "asNativeElements",
+        "getDebugNode",
+        "getAllDebugNodes",
+        "indexDebugNode",
+        "removeDebugNodeFromIndex"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/debug/debug_renderer.js": {
+      "id": 232,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "DebugDomRootRenderer",
+        "DebugDomRenderer"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/di.js": {
+      "id": 14,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "forwardRef",
+        "resolveForwardRef",
+        "Injector",
+        "ReflectiveInjector",
+        "ResolvedReflectiveFactory",
+        "ReflectiveKey",
+        "OpaqueToken",
+        "Inject",
+        "Optional",
+        "Injectable",
+        "Self",
+        "SkipSelf",
+        "Host"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/di/forward_ref.js": {
+      "id": 74,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "forwardRef",
+        "resolveForwardRef"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/di/injector.js": {
+      "id": 43,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "THROW_IF_NOT_FOUND",
+        "Injector"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/di/metadata.js": {
+      "id": 44,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Inject",
+        "Optional",
+        "Injectable",
+        "Self",
+        "SkipSelf",
+        "Host"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/di/opaque_token.js": {
+      "id": 75,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "OpaqueToken"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/di/reflective_errors.js": {
+      "id": 140,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "AbstractProviderError",
+        "NoProviderError",
+        "CyclicDependencyError",
+        "InstantiationError",
+        "InvalidProviderError",
+        "NoAnnotationError",
+        "OutOfBoundsError",
+        "MixingMultiProvidersWithRegularProvidersError"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/di/reflective_injector.js": {
+      "id": 233,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ReflectiveProtoInjectorInlineStrategy",
+        "ReflectiveProtoInjectorDynamicStrategy",
+        "ReflectiveProtoInjector",
+        "ReflectiveInjectorInlineStrategy",
+        "ReflectiveInjectorDynamicStrategy",
+        "ReflectiveInjector",
+        "ReflectiveInjector_"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/di/reflective_key.js": {
+      "id": 76,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ReflectiveKey",
+        "KeyRegistry"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/di/reflective_provider.js": {
+      "id": 77,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ReflectiveDependency",
+        "ResolvedReflectiveProvider_",
+        "ResolvedReflectiveFactory",
+        "resolveReflectiveProviders",
+        "mergeResolvedReflectiveProviders",
+        "constructDependencies"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/error_handler.js": {
+      "id": 141,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ErrorHandler"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/facade/async.js": {
+      "id": 78,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Observable",
+        "Subject",
+        "EventEmitter"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/facade/collection.js": {
+      "id": 8,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "MapWrapper",
+        "StringMapWrapper",
+        "ListWrapper",
+        "isListLikeIterable",
+        "areIterablesEqual",
+        "iterateListLike"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/facade/errors.js": {
+      "id": 12,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "unimplemented",
+        "BaseError",
+        "WrappedError"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/facade/lang.js": {
+      "id": 2,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "scheduleMicroTask",
+        "global",
+        "getTypeNameForDebugging",
+        "isPresent",
+        "isBlank",
+        "isBoolean",
+        "isNumber",
+        "isString",
+        "isFunction",
+        "isType",
+        "isStringMap",
+        "isStrictStringMap",
+        "isArray",
+        "isDate",
+        "noop",
+        "stringify",
+        "StringJoiner",
+        "NumberWrapper",
+        "RegExp",
+        "FunctionWrapper",
+        "looseIdentical",
+        "getMapKey",
+        "normalizeBlank",
+        "normalizeBool",
+        "isJsObject",
+        "print",
+        "warn",
+        "Json",
+        "setValueOnPath",
+        "getSymbolIterator",
+        "evalExpression",
+        "isPrimitive",
+        "hasConstructor",
+        "escape",
+        "escapeRegExp"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/facade/math.js": {
+      "id": 234,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Math",
+        "NaN"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/i18n/tokens.js": {
+      "id": 142,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "LOCALE_ID",
+        "TRANSLATIONS",
+        "TRANSLATIONS_FORMAT"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker.js": {
+      "id": 235,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "COMPILER_OPTIONS",
+        "CompilerFactory",
+        "ModuleWithComponentFactories",
+        "Compiler",
+        "ComponentFactory",
+        "ComponentRef",
+        "ComponentFactoryResolver",
+        "ElementRef",
+        "NgModuleFactory",
+        "NgModuleRef",
+        "NgModuleFactoryLoader",
+        "getModuleFactory",
+        "QueryList",
+        "SystemJsNgModuleLoader",
+        "SystemJsNgModuleLoaderConfig",
+        "TemplateRef",
+        "ViewContainerRef",
+        "EmbeddedViewRef",
+        "ViewRef"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker/compiler.js": {
+      "id": 30,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ComponentStillLoadingError",
+        "ModuleWithComponentFactories",
+        "Compiler",
+        "COMPILER_OPTIONS",
+        "CompilerFactory"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker/component_factory.js": {
+      "id": 144,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ComponentRef",
+        "ComponentRef_",
+        "ComponentFactory"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker/component_factory_resolver.js": {
+      "id": 45,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "NoComponentFactoryError",
+        "ComponentFactoryResolver",
+        "CodegenComponentFactoryResolver"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker/debug_context.js": {
+      "id": 145,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "StaticNodeDebugInfo",
+        "DebugContext"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker/element.js": {
+      "id": 79,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "AppElement"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker/element_injector.js": {
+      "id": 236,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ElementInjector"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker/element_ref.js": {
+      "id": 146,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ElementRef"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker/errors.js": {
+      "id": 147,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ExpressionChangedAfterItHasBeenCheckedError",
+        "ViewWrappedError",
+        "ViewDestroyedError"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker/ng_module_factory.js": {
+      "id": 148,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "NgModuleRef",
+        "NgModuleFactory",
+        "NgModuleInjector"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker/ng_module_factory_loader.js": {
+      "id": 149,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "NgModuleFactoryLoader",
+        "registerModuleFactory",
+        "clearModulesForTest",
+        "getModuleFactory"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker/query_list.js": {
+      "id": 237,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "QueryList"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker/system_js_ng_module_factory_loader.js": {
+      "id": 238,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "SystemJsNgModuleLoaderConfig",
+        "SystemJsNgModuleLoader"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker/template_ref.js": {
+      "id": 150,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "TemplateRef",
+        "TemplateRef_"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker/view.js": {
+      "id": 239,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "AppView",
+        "DebugAppView"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker/view_container_ref.js": {
+      "id": 151,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ViewContainerRef",
+        "ViewContainerRef_"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker/view_ref.js": {
+      "id": 152,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ViewRef",
+        "EmbeddedViewRef",
+        "ViewRef_"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker/view_type.js": {
+      "id": 46,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ViewType"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/linker/view_utils.js": {
+      "id": 47,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ViewUtils",
+        "flattenNestedViewRenderNodes",
+        "ensureSlotCount",
+        "MAX_INTERPOLATION_VALUES",
+        "interpolate",
+        "checkBinding",
+        "castByValue",
+        "EMPTY_ARRAY",
+        "EMPTY_MAP",
+        "pureProxy1",
+        "pureProxy2",
+        "pureProxy3",
+        "pureProxy4",
+        "pureProxy5",
+        "pureProxy6",
+        "pureProxy7",
+        "pureProxy8",
+        "pureProxy9",
+        "pureProxy10"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/metadata.js": {
+      "id": 153,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Attribute",
+        "ContentChild",
+        "ContentChildren",
+        "Query",
+        "ViewChild",
+        "ViewChildren",
+        "ANALYZE_FOR_ENTRY_COMPONENTS",
+        "Component",
+        "Directive",
+        "HostBinding",
+        "HostListener",
+        "Input",
+        "Output",
+        "Pipe",
+        "OnDestroy",
+        "AfterContentInit",
+        "AfterViewChecked",
+        "AfterViewInit",
+        "DoCheck",
+        "OnChanges",
+        "AfterContentChecked",
+        "OnInit",
+        "CUSTOM_ELEMENTS_SCHEMA",
+        "NO_ERRORS_SCHEMA",
+        "NgModule",
+        "ViewEncapsulation"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/metadata/di.js": {
+      "id": 240,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ANALYZE_FOR_ENTRY_COMPONENTS",
+        "Attribute",
+        "Query",
+        "ContentChildren",
+        "ContentChild",
+        "ViewChildren",
+        "ViewChild"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/metadata/directives.js": {
+      "id": 241,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Directive",
+        "Component",
+        "Pipe",
+        "Input",
+        "Output",
+        "HostBinding",
+        "HostListener"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/metadata/lifecycle_hooks.js": {
+      "id": 154,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "LifecycleHooks",
+        "LIFECYCLE_HOOKS_VALUES",
+        "OnChanges",
+        "OnInit",
+        "DoCheck",
+        "OnDestroy",
+        "AfterContentInit",
+        "AfterContentChecked",
+        "AfterViewInit",
+        "AfterViewChecked"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/metadata/ng_module.js": {
+      "id": 242,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "CUSTOM_ELEMENTS_SCHEMA",
+        "NO_ERRORS_SCHEMA",
+        "NgModule"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/metadata/view.js": {
+      "id": 155,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ViewEncapsulation",
+        "ViewMetadata"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/platform_core_providers.js": {
+      "id": 243,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "platformCore"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/profile/profile.js": {
+      "id": 48,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "wtfEnabled",
+        "wtfCreateScope",
+        "wtfLeave",
+        "wtfStartTimeRange",
+        "wtfEndTimeRange"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/profile/wtf_impl.js": {
+      "id": 244,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "detectWTF",
+        "createScope",
+        "leave",
+        "startTimeRange",
+        "endTimeRange"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/reflection/reflection.js": {
+      "id": 80,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ReflectionInfo",
+        "Reflector",
+        "reflector"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/reflection/reflection_capabilities.js": {
+      "id": 156,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ReflectionCapabilities"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/reflection/reflector.js": {
+      "id": 157,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ReflectionInfo",
+        "Reflector"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/reflection/reflector_reader.js": {
+      "id": 81,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ReflectorReader"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/render.js": {
+      "id": 245,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "RenderComponentType",
+        "Renderer",
+        "RootRenderer"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/render/api.js": {
+      "id": 82,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "RenderComponentType",
+        "RenderDebugInfo",
+        "Renderer",
+        "RootRenderer"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/security.js": {
+      "id": 158,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "SecurityContext",
+        "Sanitizer"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/testability/testability.js": {
+      "id": 83,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Testability",
+        "TestabilityRegistry",
+        "setTestabilityGetter"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/type.js": {
+      "id": 84,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Type"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/util.js": {
+      "id": 246,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Class"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/util/decorators.js": {
+      "id": 23,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Class",
+        "makeDecorator",
+        "makeParamDecorator",
+        "makePropDecorator"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/util/lang.js": {
+      "id": 85,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "isPromise"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/zone.js": {
+      "id": 247,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "NgZone"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/core/2.1.0/@angular/core/src/zone/ng_zone.js": {
+      "id": 86,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "NgZone"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser-dynamic/2.1.0/@angular/platform-browser-dynamic/index.js": {
+      "id": 176,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "RESOURCE_CACHE_PROVIDER",
+        "platformBrowserDynamic",
+        "__platform_browser_dynamic_private__"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser-dynamic/2.1.0/@angular/platform-browser-dynamic/src/facade/lang.js": {
+      "id": 248,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "scheduleMicroTask",
+        "global",
+        "getTypeNameForDebugging",
+        "isPresent",
+        "isBlank",
+        "isBoolean",
+        "isNumber",
+        "isString",
+        "isFunction",
+        "isType",
+        "isStringMap",
+        "isStrictStringMap",
+        "isArray",
+        "isDate",
+        "noop",
+        "stringify",
+        "StringJoiner",
+        "NumberWrapper",
+        "RegExp",
+        "FunctionWrapper",
+        "looseIdentical",
+        "getMapKey",
+        "normalizeBlank",
+        "normalizeBool",
+        "isJsObject",
+        "print",
+        "warn",
+        "Json",
+        "setValueOnPath",
+        "getSymbolIterator",
+        "evalExpression",
+        "isPrimitive",
+        "hasConstructor",
+        "escape",
+        "escapeRegExp"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser-dynamic/2.1.0/@angular/platform-browser-dynamic/src/platform-browser-dynamic.js": {
+      "id": 249,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "RESOURCE_CACHE_PROVIDER",
+        "platformBrowserDynamic",
+        "__platform_browser_dynamic_private__"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser-dynamic/2.1.0/@angular/platform-browser-dynamic/src/platform_providers.js": {
+      "id": 159,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "INTERNAL_BROWSER_DYNAMIC_PLATFORM_PROVIDERS"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser-dynamic/2.1.0/@angular/platform-browser-dynamic/src/private_export.js": {
+      "id": 250,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "__platform_browser_dynamic_private__"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser-dynamic/2.1.0/@angular/platform-browser-dynamic/src/private_import_platform-browser.js": {
+      "id": 251,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "INTERNAL_BROWSER_PLATFORM_PROVIDERS",
+        "getDOM"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser-dynamic/2.1.0/@angular/platform-browser-dynamic/src/resource_loader/resource_loader_cache.js": {
+      "id": 252,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "CachedResourceLoader"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser-dynamic/2.1.0/@angular/platform-browser-dynamic/src/resource_loader/resource_loader_impl.js": {
+      "id": 160,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ResourceLoaderImpl"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/index.js": {
+      "id": 97,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "BrowserModule",
+        "platformBrowser",
+        "Title",
+        "disableDebugTools",
+        "enableDebugTools",
+        "AnimationDriver",
+        "By",
+        "NgProbeToken",
+        "DOCUMENT",
+        "EVENT_MANAGER_PLUGINS",
+        "EventManager",
+        "HAMMER_GESTURE_CONFIG",
+        "HammerGestureConfig",
+        "DomSanitizer",
+        "__platform_browser_private__"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/browser.js": {
+      "id": 161,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "INTERNAL_BROWSER_PLATFORM_PROVIDERS",
+        "BROWSER_SANITIZATION_PROVIDERS",
+        "platformBrowser",
+        "initDomAdapter",
+        "errorHandler",
+        "_document",
+        "_resolveDefaultAnimationDriver",
+        "BrowserModule"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/browser/browser_adapter.js": {
+      "id": 162,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "BrowserDomAdapter",
+        "parseCookieValue"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/browser/generic_browser_adapter.js": {
+      "id": 253,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "GenericBrowserDomAdapter"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/browser/location/browser_platform_location.js": {
+      "id": 163,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "BrowserPlatformLocation"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/browser/location/history.js": {
+      "id": 254,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "supportsState"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/browser/testability.js": {
+      "id": 164,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "BrowserGetTestability"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/browser/title.js": {
+      "id": 165,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "Title"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/browser/tools/common_tools.js": {
+      "id": 255,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "ChangeDetectionPerfRecord",
+        "AngularTools",
+        "AngularProfiler"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/browser/tools/tools.js": {
+      "id": 256,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "enableDebugTools",
+        "disableDebugTools"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/dom/animation_driver.js": {
+      "id": 87,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "AnimationDriver"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/dom/debug/by.js": {
+      "id": 257,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "By"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/dom/debug/ng_probe.js": {
+      "id": 88,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "inspectNativeElement",
+        "NgProbeToken",
+        "_createConditionalRootRenderer",
+        "ELEMENT_PROBE_PROVIDERS",
+        "ELEMENT_PROBE_PROVIDERS_PROD_MODE"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/dom/dom_adapter.js": {
+      "id": 4,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "getDOM",
+        "setDOM",
+        "setRootDomAdapter",
+        "DomAdapter"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/dom/dom_renderer.js": {
+      "id": 89,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "DomRootRenderer",
+        "DomRootRenderer_",
+        "DomRenderer",
+        "COMPONENT_VARIABLE",
+        "HOST_ATTR",
+        "CONTENT_ATTR"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/dom/dom_tokens.js": {
+      "id": 49,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "DOCUMENT"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/dom/events/dom_events.js": {
+      "id": 166,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "DomEventsPlugin"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/dom/events/event_manager.js": {
+      "id": 24,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "EVENT_MANAGER_PLUGINS",
+        "EventManager",
+        "EventManagerPlugin"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/dom/events/hammer_common.js": {
+      "id": 258,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "HammerGesturesPluginCommon"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/dom/events/hammer_gestures.js": {
+      "id": 90,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "HAMMER_GESTURE_CONFIG",
+        "HammerGestureConfig",
+        "HammerGesturesPlugin"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/dom/events/key_events.js": {
+      "id": 167,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "KeyEventsPlugin"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/dom/shared_styles_host.js": {
+      "id": 91,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "SharedStylesHost",
+        "DomSharedStylesHost"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/dom/util.js": {
+      "id": 168,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "camelCaseToDashCase",
+        "dashCaseToCamelCase"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/dom/web_animations_driver.js": {
+      "id": 259,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "WebAnimationsDriver"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/dom/web_animations_player.js": {
+      "id": 260,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "WebAnimationsPlayer"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/facade/browser.js": {
+      "id": 261,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "window",
+        "document",
+        "location",
+        "gc",
+        "performance",
+        "Event",
+        "MouseEvent",
+        "KeyboardEvent",
+        "EventTarget",
+        "History",
+        "Location",
+        "EventListener"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/facade/collection.js": {
+      "id": 92,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "MapWrapper",
+        "StringMapWrapper",
+        "ListWrapper",
+        "isListLikeIterable",
+        "areIterablesEqual",
+        "iterateListLike"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/facade/lang.js": {
+      "id": 13,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "scheduleMicroTask",
+        "global",
+        "getTypeNameForDebugging",
+        "isPresent",
+        "isBlank",
+        "isBoolean",
+        "isNumber",
+        "isString",
+        "isFunction",
+        "isType",
+        "isStringMap",
+        "isStrictStringMap",
+        "isArray",
+        "isDate",
+        "noop",
+        "stringify",
+        "StringJoiner",
+        "NumberWrapper",
+        "RegExp",
+        "FunctionWrapper",
+        "looseIdentical",
+        "getMapKey",
+        "normalizeBlank",
+        "normalizeBool",
+        "isJsObject",
+        "print",
+        "warn",
+        "Json",
+        "setValueOnPath",
+        "getSymbolIterator",
+        "evalExpression",
+        "isPrimitive",
+        "hasConstructor",
+        "escape",
+        "escapeRegExp"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/platform-browser.js": {
+      "id": 262,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "BrowserModule",
+        "platformBrowser",
+        "Title",
+        "disableDebugTools",
+        "enableDebugTools",
+        "AnimationDriver",
+        "By",
+        "NgProbeToken",
+        "DOCUMENT",
+        "EVENT_MANAGER_PLUGINS",
+        "EventManager",
+        "HAMMER_GESTURE_CONFIG",
+        "HammerGestureConfig",
+        "DomSanitizer",
+        "__platform_browser_private__"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/private_export.js": {
+      "id": 263,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "__platform_browser_private__"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/private_import_core.js": {
+      "id": 169,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "RenderDebugInfo",
+        "ReflectionCapabilities",
+        "DebugDomRootRenderer",
+        "reflector",
+        "NoOpAnimationPlayer",
+        "AnimationPlayer",
+        "AnimationSequencePlayer",
+        "AnimationGroupPlayer",
+        "AnimationKeyframe",
+        "AnimationStyles",
+        "prepareFinalAnimationStyles",
+        "balanceAnimationKeyframes",
+        "clearStyles",
+        "collectAndResolveStyles"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/security/dom_sanitization_service.js": {
+      "id": 170,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "SecurityContext",
+        "DomSanitizer",
+        "DomSanitizerImpl"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/security/html_sanitizer.js": {
+      "id": 264,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "sanitizeHtml"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/security/style_sanitizer.js": {
+      "id": 265,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "sanitizeStyle"
+      ]
+    },
+    "./node_modules/.npminstall/@angular/platform-browser/2.1.0/@angular/platform-browser/src/security/url_sanitizer.js": {
+      "id": 93,
+      "meta": {
+        "harmonyModule": true
+      },
+      "exports": [
+        "sanitizeUrl",
+        "sanitizeSrcset"
+      ]
+    },
+    "./node_modules/.npminstall/rxjs/5.0.0-beta.12/rxjs/Observable.js": {
+      "id": 171,
+      "meta": {}
+    },
+    "./node_modules/.npminstall/rxjs/5.0.0-beta.12/rxjs/Observer.js": {
+      "id": 266,
+      "meta": {}
+    },
+    "./node_modules/.npminstall/rxjs/5.0.0-beta.12/rxjs/Subject.js": {
+      "id": 172,
+      "meta": {}
+    },
+    "./node_modules/.npminstall/rxjs/5.0.0-beta.12/rxjs/SubjectSubscription.js": {
+      "id": 267,
+      "meta": {}
+    },
+    "./node_modules/.npminstall/rxjs/5.0.0-beta.12/rxjs/Subscriber.js": {
+      "id": 173,
+      "meta": {}
+    },
+    "./node_modules/.npminstall/rxjs/5.0.0-beta.12/rxjs/Subscription.js": {
+      "id": 94,
+      "meta": {}
+    },
+    "./node_modules/.npminstall/rxjs/5.0.0-beta.12/rxjs/symbol/observable.js": {
+      "id": 268,
+      "meta": {}
+    },
+    "./node_modules/.npminstall/rxjs/5.0.0-beta.12/rxjs/symbol/rxSubscriber.js": {
+      "id": 95,
+      "meta": {}
+    },
+    "./node_modules/.npminstall/rxjs/5.0.0-beta.12/rxjs/util/ObjectUnsubscribedError.js": {
+      "id": 269,
+      "meta": {}
+    },
+    "./node_modules/.npminstall/rxjs/5.0.0-beta.12/rxjs/util/UnsubscriptionError.js": {
+      "id": 270,
+      "meta": {}
+    },
+    "./node_modules/.npminstall/rxjs/5.0.0-beta.12/rxjs/util/errorObject.js": {
+      "id": 174,
+      "meta": {}
+    },
+    "./node_modules/.npminstall/rxjs/5.0.0-beta.12/rxjs/util/isArray.js": {
+      "id": 271,
+      "meta": {}
+    },
+    "./node_modules/.npminstall/rxjs/5.0.0-beta.12/rxjs/util/isFunction.js": {
+      "id": 175,
+      "meta": {}
+    },
+    "./node_modules/.npminstall/rxjs/5.0.0-beta.12/rxjs/util/isObject.js": {
+      "id": 272,
+      "meta": {}
+    },
+    "./node_modules/.npminstall/rxjs/5.0.0-beta.12/rxjs/util/root.js": {
+      "id": 96,
+      "meta": {}
+    },
+    "./node_modules/.npminstall/rxjs/5.0.0-beta.12/rxjs/util/toSubscriber.js": {
+      "id": 273,
+      "meta": {}
+    },
+    "./node_modules/.npminstall/rxjs/5.0.0-beta.12/rxjs/util/tryCatch.js": {
+      "id": 274,
+      "meta": {}
+    },
+    "./node_modules/.npminstall/webpack/2.1.0-beta.25/webpack/buildin/global.js": {
+      "id": 25,
+      "meta": {}
+    }
+  }
+}
